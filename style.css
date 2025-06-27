@@ -1,0 +1,87 @@
+
+/* General Body */
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+h2 {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* Display Styling */
+input#display {
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  height: 70px;
+  font-size: 32px;
+  padding-right: 10px;
+  color: #111;
+  font-family: 'Courier New', monospace;
+}
+
+/* Calculator container card */
+.calculator-card {
+  max-width: 400px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+/* Common button style */
+button {
+  min-height: 70px;
+  font-size: 26px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+}
+
+/* Hover effect */
+button:hover {
+  border-radius: 50% !important;
+  transform: scale(1.1);
+  color: #333 !important;
+}
+
+/* Number buttons */
+.btn-number {
+  background-color: #e2e6ea;
+  color: #2c2c2c;
+}
+
+.btn-number:hover {
+  background-color: #cfd4da !important;
+}
+
+/* Operator buttons (+, -, *, /, %) */
+.btn-operator {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn-operator:hover {
+  background-color: #0056b3 !important;
+}
+
+/* Equals button (=) */
+.btn-equal {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.btn-equal:hover {
+  background-color: #1e7e34 !important;
+}
+
+/* Special buttons (AC, DEL, x², √, +/-) */
+.btn-special {
+  background-color: #cb6938;
+  color: #ffffff;
+}
+
+.btn-special:hover {
+  background-color: #dfe5eb !important;
+}
